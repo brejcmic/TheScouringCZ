@@ -73,6 +73,7 @@ async def simple_translator(filename:str):
 
 
 asyncio.run(simple_translator("assets.csv"))
+asyncio.run(simple_translator("devlog.csv"))
 asyncio.run(simple_translator("game.csv"))
 asyncio.run(simple_translator("tips.csv"))
 asyncio.run(simple_translator("tutorial.csv"))

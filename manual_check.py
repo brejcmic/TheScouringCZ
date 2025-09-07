@@ -99,9 +99,9 @@ def manual_check(filename:str):
                      quoting=csv.QUOTE_MINIMAL)
 
 
-shutil.copy(src="simple_translation/en/devlog.csv",dst="manual_checked/cs/devlog.csv")
 shutil.copy(src="simple_translation/en/heroes.csv",dst="manual_checked/cs/heroes.csv")
 manual_check("assets.csv")
+manual_check("devlog.csv")
 manual_check("game.csv")
 manual_check("tips.csv")
 manual_check("tutorial.csv")
